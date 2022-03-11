@@ -1,0 +1,16 @@
+
+Todo:
+  ✔ O sistema deve ter uma tela para realizar upload de um arquivo na extensão ".xml"; @done(22-03-09 17:36)
+  ✔ O sistema deve validar se o arquivo é uma extensão .xml; @done(22-03-10 06:32)
+  ✔ O sistema deve permitir somente o upload do arquivo xml se o campo CNPJ do emitente(<emit>) for "09066241000884"; @done(22-03-11 02:25)
+  ✔ O sistema deve validar se a nota possui protocolo de autorização preenchido (campo <nProt>); @done(22-03-09 19:28)
+  O sistema deve exibir em uma tela os seguintes dados:
+  	✔ Número da nota Fiscal, @done(22-03-09 19:30)
+	✔ Data da nota Fiscal, @done(22-03-09 19:34)
+	✔ Dados completos do destinatário e @done(22-03-09 19:35)
+	✔ Valor total da nota fiscal; @done(22-03-09 19:37)
+
+	Requisitos não funcionais:
+		✔ Os dados que serão exibidos na tela @done(22-03-11 02:25)
+		✔ deverão ser armazenados em um banco de dados MySQL; @done(22-03-11 02:25)
+		✔ Deverá ser desenvolvido em linguagem PHP 7; @done(22-03-09 17:43) @lasted(6m35s)
