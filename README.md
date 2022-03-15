@@ -15,8 +15,8 @@ O teste tem como intuíto gerenciar as notas fiscais do cliente com os devidos T
 
 - ✔ O sistema deve ter uma tela para realizar upload de um arquivo na extensão ".xml"
 - ✔ O sistema deve validar se o arquivo é uma extensão .xml
-- ✔ O sistema deve permitir somente o upload do arquivo xml se o campo CNPJ do emitente(<emit>) for "09066241000884"
-- ✔ O sistema deve validar se a nota possui protocolo de autorização preenchido (campo <nProt>)
+- ✔ O sistema deve permitir somente o upload do arquivo xml se o campo CNPJ do emitente(emit) for "09066241000884"
+- ✔ O sistema deve validar se a nota possui protocolo de autorização preenchido (campo nProt)
   
   
 - O sistema deve exibir em uma tela os seguintes dados:
@@ -25,8 +25,7 @@ O teste tem como intuíto gerenciar as notas fiscais do cliente com os devidos T
   - ✔ Dados completos do destinatário e valor total da nota fiscal
 
 - Requisitos não funcionais:
-  - ✔ Os dados que serão exibidos na tela
-  - ✔ deverão ser armazenados em um banco de dados MySQL
+  - ✔ Os dados que serão exibidos na tela deverão ser armazenados em um banco de dados MySQL
   - ✔ Deverá ser desenvolvido em linguagem PHP 7
 
   
